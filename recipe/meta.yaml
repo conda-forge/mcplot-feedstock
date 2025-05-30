@@ -1,5 +1,5 @@
 {% set name = "mcplot" %}
-{% set version = "2.1" %}
+{% set version = "2.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/mcplot-{{ version }}.tar.gz
-  sha256: c890b5faec970a94e4c145fbcfe1bb667af0470a2b87929709b7cdf5ca68a70f
+  sha256: 77116499a09cd1ccdb6ce77a85a11949f0d2c17cf9a3c2d5d0181d6287ceb656
 
 build:
   noarch: python
